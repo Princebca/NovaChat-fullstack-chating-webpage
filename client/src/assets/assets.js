@@ -32,7 +32,6 @@ const assets = {
 
     code,
     bgImage,
-    bgImage1,
 
     profile_martin
 }
