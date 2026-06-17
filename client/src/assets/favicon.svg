@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"></stop>
+      <stop offset="100%" stop-color="#7CFF6B"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Chat Bubble -->
+  <path d="M256 64C150 64 64 136 64 224c0 50 28 95 74 125l-18 67 73-40c20 5 41 8 63 8 106 0 192-72 192-160S362 64 256 64z" fill="url(#grad)"></path>
+
+  <!-- Rocket -->
+  <g transform="translate(230 120) rotate(-25)">
+    <path d="M40 0C80 20 100 60 100 100L60 80L20 100C20 60 40 20 40 0Z" fill="#2563EB"></path>
+    <circle cx="60" cy="45" r="10" fill="#ffffff"></circle>
+    <path d="M20 100L40 80L50 120Z" fill="#1D4ED8"></path>
+    <path d="M100 100L80 80L70 120Z" fill="#1D4ED8"></path>
+    <path d="M60 100L45 135L60 125L75 135Z" fill="#F59E0B"></path>
+  </g>
+
+  <!-- Chat Dots -->
+  <circle cx="190" cy="250" r="12" fill="#ffffff"></circle>
+  <circle cx="256" cy="250" r="12" fill="#ffffff"></circle>
+  <circle cx="322" cy="250" r="12" fill="#ffffff"></circle>
+</svg>

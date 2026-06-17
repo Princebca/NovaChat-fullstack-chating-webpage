@@ -1,0 +1,46 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080">
+      <stop offset="0%" stop-color="#0F172A"></stop>
+      <stop offset="50%" stop-color="#111827"></stop>
+      <stop offset="100%" stop-color="#1E293B"></stop>
+    </linearGradient>
+
+    <radialGradient id="glow1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"></stop>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <radialGradient id="glow2">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3"></stop>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bg)"></rect>
+
+  <!-- Glow Effects -->
+  <circle cx="400" cy="250" r="300" fill="url(#glow1)"></circle>
+  <circle cx="1500" cy="800" r="350" fill="url(#glow2)"></circle>
+
+  <!-- Grid -->
+  <g opacity="0.06">
+    <path d="M0 100H1920M0 200H1920M0 300H1920M0 400H1920M0 500H1920M0 600H1920M0 700H1920M0 800H1920M0 900H1920" stroke="white"></path>
+    <path d="M100 0V1080M200 0V1080M300 0V1080M400 0V1080M500 0V1080M600 0V1080M700 0V1080M800 0V1080M900 0V1080M1000 0V1080M1100 0V1080M1200 0V1080M1300 0V1080M1400 0V1080M1500 0V1080M1600 0V1080M1700 0V1080M1800 0V1080" stroke="white"></path>
+  </g>
+
+  <!-- Floating Chat Bubbles -->
+  <g opacity="0.12">
+    <rect x="300" y="400" width="180" height="70" rx="20" fill="#38BDF8"></rect>
+    <rect x="1400" y="300" width="220" height="80" rx="20" fill="#8B5CF6"></rect>
+    <rect x="1200" y="700" width="160" height="60" rx="20" fill="#22C55E"></rect>
+    <rect x="500" y="800" width="200" height="75" rx="20" fill="#F59E0B"></rect>
+  </g>
+
+  <!-- Decorative Dots -->
+  <circle cx="250" cy="200" r="4" fill="white"></circle>
+  <circle cx="1700" cy="180" r="4" fill="white"></circle>
+  <circle cx="1450" cy="900" r="4" fill="white"></circle>
+  <circle cx="600" cy="950" r="4" fill="white"></circle>
+</svg>
