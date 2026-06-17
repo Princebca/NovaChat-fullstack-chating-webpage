@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import assets, { imagesDummyData } from '../assets/assets'
+import { assets } from '../assets/assets'
 import { ChatContext } from '../../context/ChatContext'
 import { AuthContext } from '../../context/AuthContext'
 
@@ -14,7 +14,7 @@ const RightSidebar = () => {
     setMsgImages(
       messages.filter(msg => msg.image).map(msg => msg.image)
     )
-  },[messages])
+  }, [messages])
 
   return selectedUser && (
     <div className={`bg-[#8185b2]/10 text-white w-full relative overflow-y-scroll ${selectedUser ? 'mx-md:hidden' : ''}`}>
