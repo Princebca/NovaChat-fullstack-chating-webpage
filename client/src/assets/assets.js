@@ -18,7 +18,6 @@ import arrow_icon from './arrow_icon.png'
 
 import code from './code.svg'
 import bgImage from './bgImage.svg'
-import bgImage1 from './bgImage1.svg'
 
 import pic1 from './pic1.png'
 import pic2 from './pic2.png'
