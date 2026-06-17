@@ -42,7 +42,6 @@ const assets = {
 
     code,
     bgImage,
-    bgImage1,
 
     pic1,
     pic2,
